@@ -32,7 +32,7 @@ const Section2 = () => {
           you grow in faith.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 p-3">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-3 p-3">
         {steps.map((step, index) => (
           <div
             key={index}
