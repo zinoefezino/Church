@@ -3,7 +3,7 @@ import Button from "./Button";
 const BibleSection = () => {
   return (
     <section>
-      <div className="flex-col flex md:flex-row gap-4 items-center border border-gray-400  rounded-md bg-[#f3f4f5] max-w-7xl mx-auto px-6 py-10 ">
+      <div className="flex-col flex md:flex-row gap-4 items-center border border-gray-400  rounded-md bg-[#f3f4f5] max-w-7xl mx-auto px-6 py-10 mt-10 ">
         {/* left image  */}
         <div>
           <img src="/bible.jpg" className="rounded-md" />
