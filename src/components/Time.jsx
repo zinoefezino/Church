@@ -30,7 +30,7 @@ const Time = () => {
     <div className="max-w-7xl mx-auto px-6 py-16">
       {/* <h1 className="text-[15px] font-bold text-center">OUR SERVICES</h1> */}
       <p className="text-4xl md:text-5xl font-bold mt-3 text-center">
-        JOIN US IN WORSHIP
+        Join Us In Worship
       </p>
       <p className=" text-xl mt-3 text-center">
         Experience the presence of God with us at any of our weekly services.
