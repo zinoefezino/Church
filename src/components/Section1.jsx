@@ -7,7 +7,7 @@ const Section1 = () => {
         {/* Text */}
         <div className="max-w-xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            A place to grow, a people to call home
+            A place to grow, people to call home
           </h1>
 
           <p className="text-gray-600 text-lg mb-6">
