@@ -5,7 +5,7 @@ import { HiMenu, HiX } from "react-icons/hi";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="fixed w-full border-b border-gray-300 bg-white z-10">
+    <header className="fixed w-full  border-b border-gray-300 bg-white z-10">
       <div className="flex items-center  px-6 py-4 ">
         <div className="flex-1">
           <h1 className="font-bold text-3xl">Church</h1>

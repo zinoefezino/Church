@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black/40"></div>
 
       {/* Content */}
-      <div className="relative z-10 text-center md:text-left md:p-10">
+      <div className="relative  text-center md:text-left md:p-10">
         <h1 className="text-5xl font-bold mb-4">Welcome To Our Church</h1>
 
         <p className="text-xl mb-8 max-w-xl p-2">
