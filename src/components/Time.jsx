@@ -45,9 +45,9 @@ const Time = () => {
               {item.icon}
             </div>
 
-            <h2 className="text-[20px] mb-1">{item.title}</h2>
+            <h2 className="text-[20px] font-bold mb-1">{item.title}</h2>
 
-            <h3 className="text-sm font-bold mb-3">{item.subtitle}</h3>
+            <h3 className="text-sm  mb-3">{item.subtitle}</h3>
 
             <p className="text-gray-600">{item.text}</p>
           </div>

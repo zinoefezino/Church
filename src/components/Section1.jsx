@@ -1,3 +1,5 @@
+import { MdArrowForward } from "react-icons/md";
+
 const Section1 = () => {
   return (
     <section className="min-h-screen flex items-center">
@@ -14,15 +16,17 @@ const Section1 = () => {
           </p>
 
           <div className="flex gap-4">
-            <button className="px-6 py-3 bg-black text-white rounded-full">
+            <button className="px-6 py-3 bg-black text-white rounded-full cursor-pointer">
               Who we are
             </button>
-            <button className="px-6 py-3">Plan a visit →</button>
+            <button className="px-6 py-3 flex items-center gap-2 cursor-pointer">
+              Plan a visit <MdArrowForward />
+            </button>
           </div>
         </div>
 
         {/* Images */}
-        <div className="relative w-full h-105  md:block">
+        <div className="relative w-full h-105 md:block">
           <img
             src="/image-1.jpg"
             className="absolute right-0 top-0 w-72 h-96 object-cover rounded-2xl"
