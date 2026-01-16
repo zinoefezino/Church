@@ -1,4 +1,5 @@
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -17,7 +18,9 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <p className="text-gray-400">About</p>
             <p className="text-gray-400">Visit</p>
-            <p className="text-gray-400">Donate</p>
+            <Link to="/donate" className="text-gray-400 hover:text-white">
+              Donate
+            </Link>
           </div>
 
           {/* Column 3 */}
