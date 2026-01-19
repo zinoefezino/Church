@@ -1,9 +1,11 @@
 import Button from "./Button";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
   return (
     <header className="fixed w-full  border-b border-gray-300 bg-white z-10">
       <div className="flex items-center  px-6 py-4 ">
@@ -25,7 +27,7 @@ const Header = () => {
 
         {/* right links */}
         <div className="hidden md:flex flex-1 justify-end gap-5 items-center">
-          <Button text="Visit" />
+          <Button text="Give" onClick={() => navigate("/donate")} />
         </div>
 
         <button
@@ -55,7 +57,7 @@ const Header = () => {
 
           {/* Mobile buttons */}
           <div className="mt-4 flex flex-col gap-3">
-            <Button text="Visit Us" />
+            <Button text="Give" onClick={() => navigate("/donate")} />
           </div>
         </div>
       )}
