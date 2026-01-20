@@ -11,15 +11,16 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4"> Church</h3>
             <p className="text-gray-400">Where Faith Moves Forward</p>
+            <p className="text-lg font-bold mt-3">Visit Us At</p>
+            <p className="text-gray-400 mt-3">New Layout Jakpa Road.</p>
           </div>
 
           {/* Column 2 */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <p className="text-gray-400">About</p>
-            <p className="text-gray-400">Visit</p>
             <Link to="/donate" className="text-gray-400 hover:text-white">
-              Donate
+              Give
             </Link>
           </div>
 
@@ -28,6 +29,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Connect</h3>
             <p className="text-gray-400">Event</p>
             <p className="text-gray-400">Contact Us</p>
+            <p className="text-gray-400">info@church.org</p>
             {/* <p className="text-gray-400">FAQ</p> */}
           </div>
 
@@ -36,6 +38,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Ministries</h3>
             <p className="text-gray-400">Kids</p>
             <p className="text-gray-400">Youth</p>
+            <p className="text-gray-400">Youtube</p>
             {/* <p className="text-gray-400">Cookie Policy</p> */}
           </div>
         </div>

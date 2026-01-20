@@ -10,7 +10,12 @@ const Header = () => {
     <header className="fixed w-full  border-b border-gray-300 bg-white z-10">
       <div className="flex items-center  px-6 py-4 ">
         <div className="flex-1">
-          <h1 className="font-bold text-3xl">Church</h1>
+          <h1
+            className="font-bold text-3xl cursor-pointer"
+            onClick={() => navigate("/")}
+          >
+            Church
+          </h1>
         </div>
 
         {/* Middle links */}
@@ -21,6 +26,9 @@ const Header = () => {
               <li>Watch</li>
               <li>Ministries</li>
               <li>Contact</li>
+              <li onClick={() => navigate("/blog")} className="cursor-pointer">
+                Blog
+              </li>
             </ul>
           </nav>
         </div>
@@ -53,6 +61,9 @@ const Header = () => {
             <li>Watch</li>
             <li>Ministries</li>
             <li>Contact</li>
+            <li onClick={() => navigate("/blog")} className="cursor-pointer">
+              Blog
+            </li>
           </ul>
 
           {/* Mobile buttons */}

@@ -8,6 +8,7 @@ import Section2 from "./components/Section2";
 import Footer from "./components/Footer";
 import DonationPage from "./components/DonationPage";
 import SuccessPage from "./components/SuccessPage";
+import BlogPage from "./components/BlogPage";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         />
         <Route path="/donate" element={<DonationPage />} />
         <Route path="/success" element={<SuccessPage />} />
+        <Route path="/blog" element={<BlogPage />} />
       </Routes>
     </Router>
   );
